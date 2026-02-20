@@ -89,7 +89,7 @@ sudo apt update && sudo apt upgrade -y
 
 パスワード認証の脆弱性確認および、権限分離のテスト対象となる一般ユーザー（`guestuser`）を作成します。
 
-```bash
+```bash:bash
 sudo adduser guestuser
 # プロンプトに従い、任意のパスワード（例: password123）を設定します。
 # 氏名や電話番号などの追加情報は、すべて Enter キーでスキップして構いません。
